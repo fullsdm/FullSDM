@@ -92,7 +92,7 @@ body {
     flex-direction: column;
     text-align: center;
     width: auto;
-    height: 450px;
+    height: auto;
     padding: 20px;
     border-radius: 10px;
 
