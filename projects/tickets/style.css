@@ -28,7 +28,7 @@ body {
     flex-direction: column;
 }
 
-.main__section--tickets {
+.main__section-tickets {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
