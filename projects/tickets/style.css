@@ -101,7 +101,7 @@ body {
     width: 100px;
     padding: 5px;
     border-radius: 50px;
-    transition: .5s;
+    transition: 1s;
 }
 
 .main__section-ticket-button:hover {
