@@ -107,6 +107,7 @@ body {
 
 .main__section-ticket-image {
     border-radius: 10px;
+    margin: 5px;
 }
 
 .main__section-ticket-category {
@@ -138,6 +139,7 @@ body {
     border: 2px Solid #ff8000;
     color: #fff;
     width: 100px;
+    margin: 5px;
     padding: 5px;
     border-radius: 50px;
     cursor: pointer;
