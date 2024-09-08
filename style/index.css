@@ -1,0 +1,58 @@
+/* general */
+
+body {
+    background-color: #121212;
+    color: #E0E0E0;
+}
+
+/* header */
+
+/* main */
+
+/* footer */
+
+
+
+
+/*
+
+### Tema Oscuro
+
+- *Fondo Principal:* #121212 
+- *Fondo Secundario/Secciones:* #1E1E1E 
+- *Bordes/Divisores:* #444444 
+- *Texto Principal:* #E0E0E0 
+- *Texto Secundario:* #A0A0A0 
+- *Enlaces:* #4A90E2 
+- *Enlaces (Hover):* #6FAFFF 
+- *Botones Primarios:*
+  - *Fondo:* #4A90E2
+  - *Texto:* #FFFFFF
+  - *Borde:* #3A7BD5
+  - *Hover:* #357ABD (Fondo), #FFFFFF (Texto)
+- *Botones Secundarios:*
+  - *Fondo:* #444444
+  - *Texto:* #E0E0E0
+  - *Borde:* #555555
+  - *Hover:* #555555 (Fondo), #E0E0E0 (Texto)
+- *Botones Desactivados:*
+  - *Fondo:* #555555
+  - *Texto:* #888888
+  - *Borde:* #666666
+- *Fondo Input/Texto:* #1E1E1E 
+- *Borde Input/Texto:* #444444 
+- *Input/Texto (Focus):* #4A90E2 (Borde), #121212 (Fondo)
+- *Texto Seleccionado:* #4A90E2 (Fondo), #FFFFFF (Texto)
+- *Placeholder de Inputs:* #888888
+- *Error/Alerta:*
+  - *Fondo:* #D32F2F
+  - *Texto:* #FFCDD2
+  - *Borde:* #E57373
+- *Éxito/Confirmación:*
+  - *Fondo:* #388E3C
+  - *Texto:* #C8E6C9
+  - *Borde:* #81C784
+- *Tooltip:* #4A90E2 (Fondo), #FFFFFF (Texto)
+- *Sombra:* rgba(0, 0, 0, 0.5)
+
+*/
