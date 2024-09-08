@@ -73,7 +73,7 @@ body {
     backdrop-filter: blur(10px);
 }
 
-.ticket-image.png {
+.main__section-ticket-image {
     border-radius: 10px;
 }
 
