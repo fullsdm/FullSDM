@@ -96,7 +96,13 @@ body {
 
 .main__section-ticket-button {
     background-color: #ff8000;
+    border: 2px Solid #ff8000;
     border-radius: 50px;
+    transition: .5s;
+}
+
+.main__section-ticket-button:hover {
+    background: none;
 }
 
 /* footer */
