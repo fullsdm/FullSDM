@@ -58,7 +58,7 @@ body {
 .main__section-guests-image {
     height: 300px;
     border-radius: 10px;
-    transition: 1s;
+    transition: .5s;
 }
 
 .main__section-guests-image:hover {
