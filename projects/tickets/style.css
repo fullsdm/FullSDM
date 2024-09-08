@@ -46,6 +46,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 90px;
 }
 
 .main__section-guests-image {
