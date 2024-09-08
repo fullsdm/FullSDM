@@ -95,6 +95,7 @@ body {
     height: 550px;
     padding: 20px;
     border-radius: 10px;
+    font-size: 10px;
 
     background-color: #fff1;
     backdrop-filter: blur(10px);
