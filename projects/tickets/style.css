@@ -90,4 +90,8 @@ body {
     flex-direction: column;
 }
 
+.main__section-ticket-caption {
+    font-weight: bold;
+}
+
 /* footer */
