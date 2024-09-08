@@ -94,4 +94,9 @@ body {
     font-weight: bold;
 }
 
+.main__section-ticket-button {
+    background-color: #ff8000;
+    border-radius: 50px;
+}
+
 /* footer */
