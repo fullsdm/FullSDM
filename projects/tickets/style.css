@@ -58,6 +58,11 @@ body {
 .main__section-guests-image {
     height: 300px;
     border-radius: 10px;
+    transition: 1s;
+}
+
+.main__section-guests-image:hover {
+    box-shadow: 0 0 5px 0 #ff8000;
 }
 
 .main__section-tickets {
@@ -90,6 +95,7 @@ body {
 .main__section-ticket-image {
     border-radius: 10px;
 }
+
 
 .main__section-ticket-text {
     display: flex;
