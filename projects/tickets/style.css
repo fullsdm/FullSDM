@@ -51,6 +51,7 @@ body {
     border-radius: 10px;
 
     background: #fff1;
+    backdrop-filter: blur(10px);
 }
 
 /* footer */
