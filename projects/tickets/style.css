@@ -47,10 +47,10 @@ body {
     flex-direction: column;
     width: auto;
     height: auto;
-    padding: auto;
+    padding: 15px;
     border-radius: 10px;
 
-    background: #fff5;
+    background: #fff1;
 }
 
 /* footer */
