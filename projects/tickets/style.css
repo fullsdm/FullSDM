@@ -45,10 +45,11 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 .main__section-guests-image {
-    width: 200px;
+    width: 150px;
     border-radius: 10px;
 }
 
