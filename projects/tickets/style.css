@@ -97,6 +97,7 @@ body {
 .main__section-ticket-button {
     background-color: #ff8000;
     border: 2px Solid #ff8000;
+    color: #fff;
     width: 100px;
     padding: 5px;
     border-radius: 50px;
