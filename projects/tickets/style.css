@@ -52,6 +52,7 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 90%;
+    padding: 1rem;
 }
 
 .main__section-guests-image {
@@ -63,6 +64,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+    padding: 1rem;
 }
 
 .main__section-ticket {
