@@ -41,8 +41,10 @@ body {
     padding: 1rem;
 }
 
-.guest-image.png {
-    border-radius: 10px;
+.main__section-guests {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .main__section-tickets {
