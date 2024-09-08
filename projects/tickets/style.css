@@ -73,6 +73,7 @@ body {
 
     background-color: #fff1;
     backdrop-filter: blur(10px);
+    transition: .5s;
 }
 
 .main__section-ticket:hover {
