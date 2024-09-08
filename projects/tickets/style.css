@@ -62,7 +62,8 @@ body {
 }
 
 .main__section-guests-image:hover {
-    box-shadow: 0 0 10px 0 #008080;
+    box-shadow: 0 5px 10px 0 #008080;
+    transform: translateY(-5px);
 }
 
 .main__section-tickets {
