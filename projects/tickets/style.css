@@ -33,4 +33,15 @@ body {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.main__section-ticket {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: auto;
+    border-radius: 10px;
+}
+
 /* footer */
