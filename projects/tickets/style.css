@@ -66,6 +66,7 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    text-align: center;
     width: auto;
     height: 500px;
     padding: 20px;
