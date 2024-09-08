@@ -110,10 +110,12 @@ body {
 }
 
 .main__section-ticket-category {
+    margin: 10px 0;
     font-size: 16px;
 }
 
 .main__section-ticket-price {
+    margin: 10px 0;
     font-size: 14px;
 }
 
@@ -123,6 +125,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 10px 0;
     font-size: 13px;
 }
 
