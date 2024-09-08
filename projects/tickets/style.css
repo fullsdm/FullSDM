@@ -78,7 +78,7 @@ body {
 
 .main__section-tickets {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, 1fr);
     gap: 1rem;
     width: 90%;
     padding: 1rem;
