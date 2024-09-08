@@ -56,4 +56,8 @@ body {
     backdrop-filter: blur(10px);
 }
 
+.ticket-image.png {
+    border-radius: 10px;
+}
+
 /* footer */
