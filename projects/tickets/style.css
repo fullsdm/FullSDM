@@ -81,7 +81,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     width: 90%;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .main__section-ticket {
