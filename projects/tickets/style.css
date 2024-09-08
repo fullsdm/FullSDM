@@ -67,7 +67,7 @@ body {
 }
 
 .main__section-guests-image:active {
-    height: 500px;
+    height: 450px;
     box-shadow: none;
     transform: none;
 }
