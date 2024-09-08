@@ -47,6 +47,11 @@ body {
     align-items: center;
 }
 
+.main__section-guests-image {
+    width: 200px;
+    border-radius: 10px;
+}
+
 .main__section-tickets {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
