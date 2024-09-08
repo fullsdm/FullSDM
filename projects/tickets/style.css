@@ -75,6 +75,10 @@ body {
     backdrop-filter: blur(10px);
 }
 
+.main__section-ticket {
+    background-color: #fff5;
+}
+
 .main__section-ticket-image {
     border-radius: 10px;
 }
