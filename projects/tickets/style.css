@@ -28,6 +28,13 @@ body {
     flex-direction: column;
 }
 
+.main__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .main__section-tickets {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
