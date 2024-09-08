@@ -33,13 +33,13 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 1rem;
 }
 
 .main__section-tickets {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    padding: 1rem;
 }
 
 .main__section-ticket {
