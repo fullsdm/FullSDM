@@ -54,7 +54,7 @@ body {
 
 .main__section-guests {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 90%;
     padding: 1rem;
@@ -81,7 +81,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    width: 80%;
+    width: 90%;
     padding: 3rem;
 }
 
@@ -92,7 +92,7 @@ body {
     flex-direction: column;
     text-align: center;
     width: auto;
-    height: 550px;
+    height: 450px;
     padding: 20px;
     border-radius: 10px;
     font-size: 10px;
