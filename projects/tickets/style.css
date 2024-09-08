@@ -9,6 +9,11 @@ body {
     color: #fff;
 }
 
+::selection {
+    background-color: #ff8000;
+    backdrop-filter: blur(1px);
+}
+
 /* header */
 
 .header {
