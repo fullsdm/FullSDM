@@ -145,6 +145,12 @@ body {
     color: #fff;
 }
 
-.footer__developer {
+.footer__copyright-name {
     color: #fff;
+    text-decoration: none;
+}
+
+.footer__copyright-developer {
+    color: #fff;
+    text-decoration: none;
 }
