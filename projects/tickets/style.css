@@ -66,6 +66,12 @@ body {
     transform: translateY(-5px);
 }
 
+.main__section-guests-image:active {
+    height: 500px;
+    box-shadow: none;
+    transform: none;
+}
+
 .main__section-tickets {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
