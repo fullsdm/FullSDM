@@ -24,6 +24,10 @@ body {
     backdrop-filter: blur(10px);
 }
 
+.header__logotipo {
+    height: 40px;
+}
+
 /* main */
 
 .main {
