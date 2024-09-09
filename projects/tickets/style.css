@@ -149,6 +149,11 @@ body {
     background: none;
 }
 
+.main__dialog {
+    width: 600px;
+    height: 600px;
+}
+
 dialog::backdrop {
     background-color: #0005;
     backdrop-filter: blur(5px);
