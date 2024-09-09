@@ -150,29 +150,25 @@ body {
 }
 
 
-dialog {
-    width: 300px; /* Tamaño del diálogo */
-    border: none;
-    border-radius: 10px; /* Bordes redondeados */
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  dialog::backdrop {
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro al mostrar modal */
-  }
-  /* Estilos para el botón */
-  button {
+
+dialog::backdrop {
+    background-color: #fff9;
+    backdrop-filter: (5px);
+}
+
+/* Estilos para el botón */
+button {
     padding: 10px 20px;
     background-color: #007BFF;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  button:hover {
+}
+
+button:hover {
     background-color: #0056b3;
-  }
+}
 
 /* footer */
 
