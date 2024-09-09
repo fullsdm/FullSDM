@@ -149,14 +149,6 @@ body {
     background: none;
 }
 
-.main__section-details {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 60%;
-}
-
 /* footer */
 
 .footer {
