@@ -150,7 +150,7 @@ body {
 }
 
 dialog::backdrop {
-    background-color: #fff9;
+    background-color: #0005;
     backdrop-filter: blur(5px);
 }
 
