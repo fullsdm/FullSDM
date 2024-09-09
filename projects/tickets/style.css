@@ -149,7 +149,9 @@ body {
     background: none;
 }
 
-
+.main__dialog {
+    margin: 100px auto;
+}
 
 dialog::backdrop {
     background-color: #fff9;
