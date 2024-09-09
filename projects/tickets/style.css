@@ -149,6 +149,13 @@ body {
     background: none;
 }
 
+
+.main__dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* footer */
 
 .footer {
