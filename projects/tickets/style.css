@@ -150,9 +150,9 @@ body {
 }
 
 .main__dialog {
-    width: 600px;
-    height: 600px;
-    margin: 50vh auto;
+    width: 400px;
+    height: 400px;
+    margin: 200px auto;
 }
 
 dialog::backdrop {
