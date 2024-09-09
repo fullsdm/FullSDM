@@ -155,7 +155,7 @@ body {
 
 dialog::backdrop {
     background-color: #fff9;
-    backdrop-filter: (5px);
+    backdrop-filter: blur(5px);
 }
 
 /* footer */
