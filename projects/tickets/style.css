@@ -152,7 +152,7 @@ body {
 .main__dialog {
     width: 400px;
     height: 400px;
-    margin: 200px auto;
+    margin: 100px auto;
 }
 
 dialog::backdrop {
