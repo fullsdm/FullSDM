@@ -162,6 +162,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
 
 .main__dialog-form {
@@ -174,6 +176,7 @@ body {
 
 .main__dialog-input {
     width: 100%;
+    height: 50px;
 }
 
 dialog::backdrop {
