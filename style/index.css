@@ -5,6 +5,10 @@ body {
     color: #E0E0E0;
 }
 
+* {
+    padding: 20px 0;
+}
+
 /* header */
 
 .header {
