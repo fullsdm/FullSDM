@@ -68,6 +68,7 @@ body {
 
 @media screen and (min-width: 400px) {
     .header {
+        justify-content: center;
         flex-direction: row;
     }
 
