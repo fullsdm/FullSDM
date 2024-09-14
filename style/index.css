@@ -18,6 +18,14 @@ body {
     border-radius: 50%;
 }
 
+.header__name {}
+
+.header__username {}
+
+.header__post {}
+
+.header__bio {}
+
 /* main */
 
 .main {
