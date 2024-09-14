@@ -65,7 +65,9 @@ a:active {
 
 .main__section-subsection {}
 
-.main__section-dubsection-image {}
+.main__section-dubsection-image {
+    width: 100px;
+}
 
 .main__section-subsection-title {}
 
