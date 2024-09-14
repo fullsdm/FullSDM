@@ -44,6 +44,12 @@ body {
     margin: 0 10px;
 }
 
+.header__item {
+    border-radius: 50px;
+    background-color: #fff;
+    color: #000;
+}
+
 /* main */
 
 .main {
