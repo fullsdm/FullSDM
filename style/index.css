@@ -1,6 +1,10 @@
 /* general */
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: #121212;
     color: #1E1E1E;
 }
