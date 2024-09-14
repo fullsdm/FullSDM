@@ -17,6 +17,7 @@ body {
     justify-content: start;
     align-items: center;
     flex-direction: column-reverse;
+    flex-direction: row;
     width: 80%;
     height: 100vh;
 }
@@ -63,6 +64,16 @@ body {
 .header__link {
     text-decoration: none;
     color: #000;
+}
+
+@media screen and (min-width: 400px) {
+    .header {
+        flex-direction: row;
+    }
+
+    .header__photo {
+        width: 300px;
+    }
 }
 
 /* main */
