@@ -36,7 +36,6 @@ a:active {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
 }
 
 .header__name {}
