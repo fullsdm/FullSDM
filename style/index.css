@@ -27,7 +27,7 @@ a:active {
 }
 
 .header__photo {
-    width: 50%;
+    width: 500px;
     border-radius: 50%;
 }
 
@@ -36,6 +36,7 @@ a:active {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: ;
 }
 
 .header__name {}
