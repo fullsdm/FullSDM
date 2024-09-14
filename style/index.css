@@ -46,7 +46,11 @@ a:active {
 
 .header__bio {}
 
-.header__list {}
+.header__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .header__item {}
 
