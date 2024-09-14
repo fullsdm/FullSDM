@@ -22,7 +22,7 @@ body {
 }
 
 .header__photo {
-    width: 100%;
+    width: 400px;
     margin: 30px 0;
     border-radius: 50%;
 }
