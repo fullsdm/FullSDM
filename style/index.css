@@ -27,10 +27,6 @@ body {
     border-radius: 50%;
 }
 
-.header__photo:hover {
-    transform: scale(10px);
-}
-
 .header__section {
     display: flex;
     justify-content: center;
@@ -78,10 +74,6 @@ body {
 
     .header__photo {
         width: 500px;
-    }
-
-    .header__photo:hover {
-        transform: scale(10px);
     }
 
     .header__name {
