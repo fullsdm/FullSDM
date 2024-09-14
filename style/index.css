@@ -62,13 +62,14 @@ body {
     transition: .3s;
 }
 
-.header__link {
-    color: #4A90E2;
-}
 
 .header__link {
     text-decoration: none;
     color: #000;
+}
+
+.header__link:hover {
+    color: #4A90E2;
 }
 
 @media screen and (min-width: 1000px) {
