@@ -56,9 +56,14 @@ body {
 
 .header__item {
     margin: 10px;
-    padding: 5px;
+    padding: 8px;
     border-radius: 50px;
     background-color: #fff;
+    transition: .3s;
+}
+
+.header__link {
+    color: #4A90E2;
 }
 
 .header__link {
