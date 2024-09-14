@@ -78,6 +78,8 @@ a:active {
     width: auto;
     height: auto;
     padding: 5px;
+    border: none;
+    border-radius: 10px;
     background-color: #fff;
     color: #000;
 }
