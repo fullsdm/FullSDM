@@ -60,6 +60,10 @@ a:active {
     .header {
         flex-direction: column-reverse;
     }
+
+    .header__photo {
+        width: 100%;
+    }
 }
 
 /* main */
