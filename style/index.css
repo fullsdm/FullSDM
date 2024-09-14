@@ -34,6 +34,18 @@ body {
     flex-direction: column;
 }
 
+.header__name {
+    font-size: 2rem;
+}
+
+.header__username {
+    font-size: 1.5rem;
+}
+
+.header__bio {
+    font-size: 1rem;
+}
+
 .header__list {
     display: flex;
     justify-content: space-between;
