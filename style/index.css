@@ -50,6 +50,10 @@ a:hover {
     flex-direction: column;
 }
 
+.main__section {
+    margin: 30px 0;
+}
+
 /* footer */
 
 
