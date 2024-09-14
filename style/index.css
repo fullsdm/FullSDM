@@ -17,7 +17,6 @@ body {
     justify-content: start;
     align-items: center;
     flex-direction: column-reverse;
-    flex-direction: row;
     width: 80%;
     height: 100vh;
 }
