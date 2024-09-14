@@ -51,6 +51,10 @@ body {
     color: #000;
 }
 
+.header__link {
+    text-decoration: none;
+}
+
 /* main */
 
 .main {
