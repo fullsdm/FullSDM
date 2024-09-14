@@ -5,6 +5,14 @@ body {
     color: #E0E0E0;
 }
 
+a {
+    color: #4A90E2;
+}
+
+a:hover {
+    color: #6FAFFF;
+}
+
 /* header */
 
 .header {
