@@ -18,6 +18,10 @@ body {
     flex-direction: column;
 }
 
+.header__photo {
+    width: 80px;
+}
+
 /* main */
 
 /* footer */
