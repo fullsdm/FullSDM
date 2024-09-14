@@ -48,11 +48,11 @@ body {
     padding: 5px;
     border-radius: 50px;
     background-color: #fff;
-    color: #000;
 }
 
 .header__link {
     text-decoration: none;
+    color: #000;
 }
 
 /* main */
