@@ -31,6 +31,13 @@ a:active {
     border-radius: 50%;
 }
 
+.header__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .header__name {}
 
 .header__username {}
