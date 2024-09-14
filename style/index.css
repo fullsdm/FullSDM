@@ -27,7 +27,7 @@ a:active {
 }
 
 .header__photo {
-    width: 300px;
+    width: 100%;
     border-radius: 50%;
 }
 
@@ -47,7 +47,7 @@ a:active {
 
 @media screen and (max-width: 800px) {
     .header {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 }
 
