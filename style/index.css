@@ -40,6 +40,10 @@ body {
     list-style: none;
 }
 
+.header__item {
+    margin: 0 10px;
+}
+
 /* main */
 
 .main {
