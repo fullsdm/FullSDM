@@ -16,10 +16,11 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 80%;
 }
 
 .header__photo {
-    width: 80px;
+    width: 100%;
     border-radius: 50%;
 }
 
