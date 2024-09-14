@@ -20,6 +20,7 @@ body {
 
 .header__photo {
     width: 80px;
+    border-radius: 50%;
 }
 
 /* main */
