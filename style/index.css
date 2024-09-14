@@ -74,7 +74,12 @@ a:active {
 
 .main__section-subsection-content {}
 
-.main__section-subsection-button {}
+.main__section-subsection-button {
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    color: #000;
+}
 
 .main__section-subsection-description {}
 
