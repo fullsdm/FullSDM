@@ -23,7 +23,6 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     height: 100vh;
 }
 
@@ -45,6 +44,12 @@ a:active {
 .header__item {}
 
 .header__link {}
+
+@media screen and (max-width: 800px) {
+    .header {
+        flex-direction: column;
+    }
+}
 
 /* main */
 
