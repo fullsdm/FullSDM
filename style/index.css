@@ -25,6 +25,13 @@ body {
     border-radius: 50%;
 }
 
+.header__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 /* main */
 
 /* footer */
