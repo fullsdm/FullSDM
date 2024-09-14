@@ -8,6 +8,7 @@ body {
 
 .header__photo {
     width: 250px;
+    border-radius: 50%;
 }
 
 /* main */
