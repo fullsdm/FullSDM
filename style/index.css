@@ -6,6 +6,13 @@ body {
 
 /* header */
 
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .header__photo {
     width: 250px;
     border-radius: 50%;
