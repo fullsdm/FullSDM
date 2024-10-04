@@ -27,4 +27,6 @@ form {
     flex-direction: column;
     width: 600px;
     height: 600px;
+
+    background-color: #fff5;
 }
