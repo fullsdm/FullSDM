@@ -27,6 +27,15 @@ form {
     flex-direction: column;
     width: 600px;
     height: 600px;
-
+    border-radius: 10px;
     background-color: #fff5;
+}
+
+input {
+    width: 90%;
+    height: 30px;
+}
+
+button {
+    width: 70px;
 }
