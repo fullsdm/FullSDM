@@ -36,6 +36,8 @@ input {
 }
 
 button {
+    width: 100px;
+    height: 30px;
     padding: 5px;
     border-radius: 50px;
 }
