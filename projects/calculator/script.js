@@ -8,6 +8,6 @@ document.getElementById("sumar").addEventListener("click", function () {
     document.getElementById("resultado").innerHTML = "El resultado es: "
         + suma;
 
-    alert("La suma de los numeros es: " + suma);
+    // alert("La suma de los numeros es: " + suma);
 
 })
