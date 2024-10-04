@@ -5,8 +5,7 @@ document.getElementById("sumar").addEventListener("click", function () {
 
     let suma = num_1 + num_2;
 
-    document.getElementById("resultado").innerHTML = "El resultado es: "
-        + suma;
+    document.getElementById("resultado").innerHTML = "El resultado es: " + suma;
 
     // alert("La suma de los numeros es: " + suma);
 
