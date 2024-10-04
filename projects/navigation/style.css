@@ -58,7 +58,7 @@ overlay a:hover {
     color: #eceff1;
 }
 
-header .nav-links a:hover {
+.header .nav-links a:hover {
     color: #ffbc0e;
 }
 
@@ -67,7 +67,7 @@ header .nav-links a:hover {
 }
 
 .header .btn button,
-header .menu button {
+.header .menu button {
     margin-left: 20px;
     font-weight: 700;
     color: #1b3039;
@@ -80,7 +80,7 @@ header .menu button {
 }
 
 .header .btn button:hover,
-header .menu button:hover {
+.header .menu button:hover {
     background-color: #e2f1f8;
     color: #ffbc0e;
     transform: scale(1.1);
@@ -135,7 +135,7 @@ header .menu button:hover {
 }
 
 .header .overlay a:hover,
-header .overlay a:focus {
+.header .overlay a:focus {
     color: #ffbc0e;
 }
 
@@ -147,11 +147,11 @@ header .overlay a:focus {
 }
 
 @media screen and (max-height: 450px) {
-    header .overlay a {
+    .header .overlay a {
         font-size: 20px;
     }
 
-    header .overlay .close {
+    .header .overlay .close {
         font-size: 40px;
         right: 35px;
     }
