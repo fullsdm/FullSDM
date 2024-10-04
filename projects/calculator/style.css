@@ -19,3 +19,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+}
