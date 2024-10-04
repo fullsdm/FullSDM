@@ -10,4 +10,4 @@ document.getElementById("sumar").addEventListener("click", function () {
 
     // alert("La suma de los numeros es: " + suma);
 
-})
+});
