@@ -9,7 +9,6 @@
 body {
     height: 100vh;
     font-family: sans-serif;
-    background-color: #000;
 }
 
 /* main */
@@ -28,7 +27,7 @@ form {
     width: 600px;
     height: 600px;
     border-radius: 10px;
-    background-color: #fff5;
+    box-shadow: 0 0 10px 0 #000;
 }
 
 input {
