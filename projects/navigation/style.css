@@ -87,7 +87,7 @@ overlay a:hover {
 }
 
 @media screen and (max-width: 800px) {
-    .nav-links .btn {
+    .nav-links, .btn {
         display: none;
     }
 
