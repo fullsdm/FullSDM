@@ -41,6 +41,11 @@
     list-style: none;
 }
 
+.header__link {
+    color: #000;
+    text-decoration: none;
+}
+
 .header__right {
     display: flex;
     justify-content: right;
