@@ -70,10 +70,15 @@
     align-items: center;
 }
 
+.section__photo {
+    width: 100%;
+}
+
 .main__section-info {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 /* footer */
