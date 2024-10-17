@@ -61,6 +61,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 90vh;
 }
 
 .main__section {
