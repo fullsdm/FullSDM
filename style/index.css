@@ -27,13 +27,13 @@ body {
     margin-right: auto;
 }
 
-.header .logo img {
+.header .logotipo img {
     height: 70px;
     width: auto;
     transition: all .3s;
 }
 
-.header .logo img:hover {
+.header .logotipo img:hover {
     transform: scale(1.2);
 }
 
