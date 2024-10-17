@@ -1,0 +1,58 @@
+/* general */
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+.header__left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 33.33%;
+    height: 30px;
+}
+
+.header__logotipo {
+    height: 30px;
+}
+
+.header__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    height: 30px;
+}
+
+.header__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+}
+
+.header__right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 33.33%;
+    height: 30px;
+}
+
+/* main */
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
