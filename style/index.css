@@ -53,6 +53,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.main__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.main__section-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__section-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* footer */
