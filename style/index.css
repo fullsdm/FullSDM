@@ -57,7 +57,7 @@ overlay a:hover {
 }
 
 .header .nav-links a:hover {
-    color: #ffbc0e;
+    color: #458;
 }
 
 .menu {
@@ -80,7 +80,7 @@ overlay a:hover {
 .header .btn button:hover,
 .header .menu button:hover {
     background-color: #e2f1f8;
-    color: #ffbc0e;
+    color: #458;
     transform: scale(1.1);
 }
 
@@ -136,7 +136,7 @@ overlay a:hover {
 
 .header .overlay a:hover,
 .header .overlay a:focus {
-    color: #ffbc0e;
+    color: #478;
 }
 
 .header .overlay .close {
