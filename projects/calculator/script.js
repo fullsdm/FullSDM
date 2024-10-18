@@ -8,11 +8,11 @@ document.getElementById("sumar").addEventListener("click", function () {
   if (operacion == 1) {
     resultado = num_1 + num_2;
   } else if (operacion == 2) {
-    resultado = num_1 + num_2;
+    resultado = num_1 - num_2;
   } else if (operacion == 3) {
-    resultado = num_1 + num_2;
+    resultado = num_1 * num_2;
   } else if (operacion == 5) {
-    resultado = num_1 + num_2;
+    resultado = num_1 / num_2;
   }
 
   document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
