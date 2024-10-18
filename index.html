@@ -3,56 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="icon" href="https://fullsdm.com/assets/images/favicon.ico" />
-
-    <link rel="stylesheet" href="https://fullsdm.com/style/base/normalize.css" />
-    <link rel="stylesheet" href="https://fullsdm.com/style/fonts/rajdhani.css" />
-    <link rel="stylesheet" href="https://fullsdm.com/style/fonts/roboto.css" />
-    <link rel="stylesheet" href="https://fullsdm.com/style/index.css" />
-
     <title>FullSDM</title>
   </head>
   <body>
     <header class="header">
-      <div class="logo">
-        <img src="assets/images/logotipo.jpg" alt="Logotipo de FullSDM" />
-      </div>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Proyectos</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
-      </nav>
-      <a href="#" class="btn"><button>Contacto</button></a>
-      <a href="#" onclick="openNav()" class="menu"><button>Menu</button></a>
-      <div id="mobile-menu" class="overlay">
-        <a href="#" onclick="closeNav()" class="close">&times;</a>
-        <div class="overlay-content">
-          <a href="">Inicio</a>
-          <a href="">Proyectos</a>
-          <a href="">Contacto</a>
-        </div>
-      </div>
+      <div class="header__left"></div>
+      <div class="header__center"></div>
+      <div class="header__right"></div>
     </header>
     <main class="main">
-      <section class="main__section">
-        <div class="main__section-photo">
-          <img src="https://fullsdm.com/assets/photos/fullsdm.jpg" alt="Foto de FullSDM" class="section__photo" />
-        </div>
-        <div class="main__section-info">
-          <h1 class="section__name">Jorge Jiménez</h1>
-          <h2 class="section__job">Upcoming developer</h2>
-          <p class="section__bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, quas placeat repellendus iusto aliquam reiciendis!</p>
-          <div class="section__networks">
-            <a href="#" class="section__networks-link">GitHub</a>
-            <a href="#" class="section__networks-link">Linkedin</a>
-            <a href="#" class="section__networks-link">Email</a>
-          </div>
-        </div>
-      </section>
+      <ul class="main__list">
+        <li class="main__item"><a href="#" class="main__link">Calculadora</a></li>
+        <li class="main__item"><a href="#" class="main__link">Factura</a></li>
+        <li class="main__item"><a href="#" class="main__link">Navegación</a></li>
+        <li class="main__item"><a href="#" class="main__link">Boletas</a></li>
+      </ul>
     </main>
-    <script src="script/index.js"></script>
+    <footer class="footer"></footer>
   </body>
 </html>
