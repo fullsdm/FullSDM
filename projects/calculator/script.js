@@ -5,7 +5,7 @@ document.getElementById("sumar").addEventListener("click", function () {
   let operacion = parseInt(document.getElementById("operacion").value);
   let resultado = 0;
 
-  if (resultado == 1) {
+  if (operacion == 1) {
     resultado = "Por favor selecione una operacion";
   } else if (operacion == 2) {
     resultado = num_1 + num_2;
