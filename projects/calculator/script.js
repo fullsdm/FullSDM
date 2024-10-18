@@ -17,5 +17,4 @@ document.getElementById("sumar").addEventListener("click", function () {
 
   document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
 
-  // alert("La suma de los numeros es: " + suma);
 });
