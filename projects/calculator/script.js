@@ -7,17 +7,21 @@ document.getElementById("sumar").addEventListener("click", function () {
 
   if (operacion == 1) {
     resultado = "Por favor selecione una operacion";
+    document.getElementById("resultado").innerHTML = resultado;
   } else if (operacion == 2) {
     resultado = num_1 + num_2;
+    document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
   } else if (operacion == 3) {
     resultado = num_1 - num_2;
+    document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
   } else if (operacion == 4) {
     resultado = num_1 * num_2;
+    document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
   } else if (operacion == 5) {
     resultado = num_1 / num_2;
+    document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
   } else if (operacion == Infinity) {
     resultado = "El valor de uno de los numeros no puede ser CERO";
+    document.getElementById("resultado").innerHTML = resultado;
   }
-
-  document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
 });
