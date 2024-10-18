@@ -10,45 +10,21 @@ document.getElementById("sumar").addEventListener("click", function () {
     document.getElementById("resultado").innerHTML = resultado;
     document.getElementById("resultado").style.color = "#f00";
   } else if (operacion == 2) {
-    if (resultado == NaN) {
-      resultado = "No puede haber campos vacios";
-      document.getElementById("resultado").innerHTML = resultado;
-      document.getElementById("resultado").style.color = "#f00";
-    } else {
-      resultado = num_1 + num_2;
-      document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
-      document.getElementById("resultado").style.color = "#000";
-    }
+    resultado = num_1 + num_2;
+    document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
+    document.getElementById("resultado").style.color = "#000";
   } else if (operacion == 3) {
-    if (resultado == NaN) {
-      resultado = "No puede haber campos vacios";
-      document.getElementById("resultado").innerHTML = resultado;
-      document.getElementById("resultado").style.color = "#f00";
-    } else {
-      resultado = num_1 - num_2;
-      document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
-      document.getElementById("resultado").style.color = "#000";
-    }
+    resultado = num_1 - num_2;
+    document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
+    document.getElementById("resultado").style.color = "#000";
   } else if (operacion == 4) {
-    if (resultado == NaN) {
-      resultado = "No puede haber campos vacios";
-      document.getElementById("resultado").innerHTML = resultado;
-      document.getElementById("resultado").style.color = "#f00";
-    } else {
-      resultado = num_1 * num_2;
-      document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
-      document.getElementById("resultado").style.color = "#000";
-    }
+    resultado = num_1 * num_2;
+    document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
+    document.getElementById("resultado").style.color = "#000";
   } else if (operacion == 5) {
-    if (resultado == NaN) {
-      resultado = "No puede haber campos vacios";
-      document.getElementById("resultado").innerHTML = resultado;
-      document.getElementById("resultado").style.color = "#f00";
-    } else {
-      resultado = num_1 / num_2;
-      document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
-      document.getElementById("resultado").style.color = "#000";
-    }
+    resultado = num_1 / num_2;
+    document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
+    document.getElementById("resultado").style.color = "#000";
   }
   if (resultado == Infinity) {
     resultado = "El valor de uno de los numeros no puede ser CERO";
