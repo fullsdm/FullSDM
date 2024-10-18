@@ -25,7 +25,7 @@ document.getElementById("sumar").addEventListener("click", function () {
     resultado = num_1 / num_2;
     document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
     document.getElementById("resultado").style.color = "#000";
-  } else if (operacion == Infinity) {
+  } else if (resultado == Infinity) {
     resultado = "El valor de uno de los numeros no puede ser CERO";
     document.getElementById("resultado").innerHTML = resultado;
     document.getElementById("resultado").style.color = "#f00";
