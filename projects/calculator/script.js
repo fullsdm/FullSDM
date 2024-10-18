@@ -5,7 +5,9 @@ document.getElementById("sumar").addEventListener("click", function () {
   let operacion = parseInt(document.getElementById("operacion").value);
   let resultado = 0;
 
-  if (operacion == 2) {
+  if (resultado == 1) {
+    resultado = "Por favor selecione una operacion";
+  } else if (operacion == 2) {
     resultado = num_1 + num_2;
   } else if (operacion == 3) {
     resultado = num_1 - num_2;
@@ -15,8 +17,6 @@ document.getElementById("sumar").addEventListener("click", function () {
     resultado = num_1 / num_2;
   } else if (resultado == Infinity) {
     resultado = "El valor de uno de los numeros no puede ser CERO";
-  } else if (resultado == 1) {
-    resultado = "Por favor selecione una operacion";
   }
 
   document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
