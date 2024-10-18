@@ -5,13 +5,6 @@ document.getElementById("sumar").addEventListener("click", function () {
   let operacion = parseInt(document.getElementById("operacion").value);
   let resultado = 0;
 
-  if (resultado == Infinity) {
-    resultado = "El valor de uno de los numeros no puede ser CERO";
-    document.getElementById("resultado").innerHTML = resultado;
-    document.getElementById("resultado").style.color = "#f00";
-  } else {
-  }
-
   if (operacion == 1) {
     resultado = "Por favor selecione una operacion";
     document.getElementById("resultado").innerHTML = resultado;
