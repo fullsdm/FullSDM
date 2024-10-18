@@ -31,4 +31,9 @@ document.getElementById("sumar").addEventListener("click", function () {
     document.getElementById("resultado").innerHTML = resultado;
     document.getElementById("resultado").style.color = "#f00";
   }
+  if (resultado == NaN) {
+    resultado = "No puede haber campos vacios";
+    document.getElementById("resultado").innerHTML = resultado;
+    document.getElementById("resultado").style.color = "#f00";
+  }
 });
