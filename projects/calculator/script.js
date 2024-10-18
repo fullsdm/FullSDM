@@ -15,7 +15,7 @@ document.getElementById("sumar").addEventListener("click", function () {
     resultado = num_1 / num_2;
   } else if (operacion == Infinity) {
     resultado = "Un numero no puedetener el valor de Cero";
-  }
+  };
 
   document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
 });
