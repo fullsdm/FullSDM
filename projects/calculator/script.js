@@ -1,51 +1,21 @@
 document.getElementById("sumar").addEventListener("click", function () {
+  let num_1 = parseInt(document.getElementById("num_1").value);
+  let num_2 = parseInt(document.getElementById("num_2").value);
 
-    let num_1 = parseInt(document.getElementById("num_1").value);
-    let num_2 = parseInt(document.getElementById("num_2").value);
+  let operacion = parseInt(document, getElementById("operacion").value);
+  let resultado = 0;
 
-    let suma = num_1 + num_2;
+  if (operacion == 1) {
+    resultado = num_1 + num_2;
+  } else if (operacion == 2) {
+    resultado = num_1 + num_2;
+  } else if (operacion == 3) {
+    resultado = num_1 + num_2;
+  } else if (operacion == 5) {
+    resultado = num_1 + num_2;
+  }
 
-    document.getElementById("resultado").innerHTML = "El resultado es: " + suma;
+  document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
 
-    // alert("La suma de los numeros es: " + suma);
-
-});
-
-document.getElementById("resta").addEventListener("click", function () {
-
-    let num_1 = parseInt(document.getElementById("num_1").value);
-    let num_2 = parseInt(document.getElementById("num_2").value);
-
-    let resta = num_1 - num_2;
-
-    document.getElementById("resultado").innerHTML = "El resultado es: " + resta;
-
-    // alert("La suma de los numeros es: " + suma);
-
-});
-
-document.getElementById("multiplicacion").addEventListener("click", function () {
-
-    let num_1 = parseInt(document.getElementById("num_1").value);
-    let num_2 = parseInt(document.getElementById("num_2").value);
-
-    let multiplicacion = num_1 * num_2;
-
-    document.getElementById("resultado").innerHTML = "El resultado es: " + multiplicacion;
-
-    // alert("La suma de los numeros es: " + suma);
-
-});
-
-document.getElementById("division").addEventListener("click", function () {
-
-    let num_1 = parseInt(document.getElementById("num_1").value);
-    let num_2 = parseInt(document.getElementById("num_2").value);
-
-    let division = num_1 / num_2;
-
-    document.getElementById("resultado").innerHTML = "El resultado es: " + division;
-
-    // alert("La suma de los numeros es: " + suma);
-
+  // alert("La suma de los numeros es: " + suma);
 });
