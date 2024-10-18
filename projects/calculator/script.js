@@ -30,5 +30,6 @@ document.getElementById("sumar").addEventListener("click", function () {
     resultado = "El valor de uno de los numeros no puede ser CERO";
     document.getElementById("resultado").innerHTML = resultado;
     document.getElementById("resultado").style.color = "#f00";
+    document.getElementById("num_2").style.borderColor = "#f00";
   }
 });
