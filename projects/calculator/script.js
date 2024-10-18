@@ -21,7 +21,9 @@ document.getElementById("sumar").addEventListener("click", function () {
     resultado = num_1 * num_2;
     document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
     document.getElementById("resultado").style.color = "#000";
-  } else if (operacion == 5) {
+  };
+  
+  if (operacion == 5) {
     resultado = num_1 / num_2;
     document.getElementById("resultado").innerHTML = "El resultado es: " + resultado;
     document.getElementById("resultado").style.color = "#000";
