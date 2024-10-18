@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Calculador</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
-        <form action="">
-            <div>
-                <p>Numero 1</p>
-                <input type="number" name="num_1" id="num_1">
-            </div>
-            <div>
-                <p>Numero 2</p>
-                <input type="number" name="num_2" id="num_2">
-            </div>
-            <div>
-                <p id="resultado"></p>
-            </div>
-            <br><br>
-            <button type="button" id="sumar">Suma</button>
-            <button type="button" id="resta">Resta</button>
-            <button type="button" id="multiplicacion">Multiplicar</button>
-            <button type="button" id="division">Division</button>
-        </form>
+      <form action="">
+        <div>
+          <p>Numero 1</p>
+          <input type="number" name="num_1" id="num_1" />
+        </div>
+        <div>
+          <p>Numero 2</p>
+          <input type="number" name="num_2" id="num_2" />
+        </div>
+        <div>
+          <p id="resultado"></p>
+        </div>
+        <br /><br />
+        <div>
+          <select name="operacion" id="operacion">
+            <option value="1">Seleccione</option>
+            <option value="2">Suma</option>
+            <option value="3">Resta</option>
+            <option value="4">multiplicacion</option>
+            <option value="5">Divicion</option>
+          </select>
+        </div>
+      </form>
     </main>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
