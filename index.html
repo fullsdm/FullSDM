@@ -3,28 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="https://fullsdm.com/assets/images/favicon.ico" />
-    <link rel="stylesheet" href="https://fullsdm.com/style/normalize.css" />
-    <link rel="stylesheet" href="https://fullsdm.com/style/rajdhani.css" />
-    <link rel="stylesheet" href="https://fullsdm.com/style/style.css" />
-    <title>FullSDM</title>
+    <link rel="stylesheet" href="styles/bootstrap.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Validation form</title>
   </head>
-  <body>
-    <main class="main">
-      <section class="section section__profile">
-        <div class="section__profile-box">
-          <h1 class="section__profile-name">Jorge Jiménez</h1>
-          <h2 class="section__profile-job">Upcoming developer</h2>
-          <div class="player-container">
-            <button id="playButton">Play</button>
-            <audio id="audio" src="https://fullsdm.com/assets/music/my-universe-147152.mp3"></audio>
+  <body data-bs-theme="dark">
+    <div class="container">
+      <div class="title">
+        <h3 class="display-4">Formulario de validación</h3>
+      </div>
+      <form action="" method="post" id="form">
+        <div class="row mt-5">
+          <div class="alert alert-danger d-none" id="alert" role="alert"></div>
+          <div class="col-md-4">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre" />
+          </div>
+          <div class="col-md-4">
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" class="form-control" placeholder="Apellido" />
+          </div>
+          <div class="col-md-4">
+            <label for="correo">Correo</label>
+            <input type="email" name="correo" id="correo" class="form-control" placeholder="ejemplo@ejemplo.com" />
+          </div>
+          <div class="col-md-1 mt-5 justify-content-center">
+            <input type="submit" value="Enviar" class="btn btn-success" />
           </div>
         </div>
-        <div class="section__profile-box">
-          <img src="https://fullsdm.com/assets/photos/fullsdm.jpg" alt="" class="section__profile-photo" id="rotateImage" />
-        </div>
-      </section>
-    </main>
-    <script src="https://fullsdm.com/script/script.js"></script>
+      </form>
+    </div>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/validationForm.js"></script>
   </body>
 </html>
